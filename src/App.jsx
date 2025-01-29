@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { InputBox } from './components';
-import useCurrencyInfo from './hooks/useCurrencyInfo'; // Corrected the spelling
+import useCurrencyInfo from './hooks/useCurrencyInfo';
 
 function App() {
   const [amount, setAmount] = useState(0);
@@ -55,7 +55,7 @@ function App() {
               />
             </div>
 
-            <div className="relative w-full ">
+            <div className="relative w-full">
               <button
                 type="button"
                 className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2
@@ -64,7 +64,7 @@ function App() {
                          py-0.5"
                 onClick={swap}
               >
-                swap
+                Swap
               </button>
 
               <div className="w-full mb-1">
